@@ -1,0 +1,16 @@
+{
+	"name": "STahp",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "Stop wasting time in Facebook and Youtube.",
+	"background": {
+    "scripts": ["bg.js"]
+  },
+	"permissions": [
+	"notifications",
+    "tabs"
+  ],
+	"browser_action": {
+		"default_icon": "icon.png"
+	}
+}
